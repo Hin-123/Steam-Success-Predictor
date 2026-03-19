@@ -50,6 +50,6 @@ if model is not None:
             st.markdown("---")
             if prediction >= 0:
                 st.balloons()
-                st.success(f"### 📈 คาดการณ์กำไร: {prediction:,.2f} หน่วย")
+                st.success(f"### 📈 คาดการณ์กำไร: {prediction:,.2f} ดอลลาร์")
             else:
-                st.error(f"### 📉 คาดการณ์ขาดทุน: {prediction:,.2f} หน่วย")
+                st.error(f"### 📉 คาดการณ์ขาดทุน: {prediction:,.2f} ดอลลาร์")
